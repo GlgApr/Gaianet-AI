@@ -21,7 +21,7 @@ logging.basicConfig(
 )
 
 # Configuration
-BASE_URL = "https://aimod.gaia.domains"
+BASE_URL = "https://crypthoria.gaia.domains"
 MODEL = "qwen2-0.5b-instruct"
 MAX_RETRIES = 100  # Essentially infinite retries
 RETRY_DELAY = 5  # Seconds between retries
@@ -97,7 +97,8 @@ QUESTIONS = [
     "How is the rise of NFTs influencing our understanding of digital ownership and asset valuation?",
     "What are the potential risks of market manipulation in the cryptocurrency arena, and how might they be mitigated?",
     "How do privacy-centric cryptocurrencies differ from mainstream ones like Bitcoin and Ethereum?",
-    "In what ways could increased regulation impact the pace of innovation within the digital currency market?"
+    "In what ways could increased regulation impact the pace of innovation within the digital currency market?",
+    "What do you know about doge and elon musk?"
 ]
 
 def chat_with_ai(api_key: str, question: str) -> str:
