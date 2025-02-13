@@ -1,8 +1,3 @@
-# Title: GaiaAI Chatbot
-# Created by: Moei
-# Twitter: https://x.com/0xMoei
-
-# The script will print the credit part and ask for the API key
 
 import requests
 import random
@@ -98,7 +93,8 @@ QUESTIONS = [
     "What are the potential risks of market manipulation in the cryptocurrency arena, and how might they be mitigated?",
     "How do privacy-centric cryptocurrencies differ from mainstream ones like Bitcoin and Ethereum?",
     "In what ways could increased regulation impact the pace of innovation within the digital currency market?",
-    "What do you know about doge and elon musk?"
+    "What do you know about doge and elon musk?",
+    "I want to buy bitcoin, can u give me recommended exchange?"
 ]
 
 def chat_with_ai(api_key: str, question: str) -> str:
@@ -167,9 +163,9 @@ def run_bot(api_key: str):
                 continue
 
 def main():
-    print("Title: GaiaAI Chatbot")
-    print("Created by: Moei")
-    print("Twitter: https://x.com/0xMoei")
+    print("Title: GaiaAI Chatbot (Thanks to Rues Community")
+    print("Forked by: Galang Aprilian")
+    print("Twitter: https://x.com/__glgapr")
     api_key = input("Enter your API key: ")
     run_bot(api_key)
 
